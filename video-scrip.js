@@ -83,7 +83,7 @@ function displayVideoDetails(videoId) {
 
             }
             <div class="add-comment">
-            <input type="text" placeholder="Add a public comment...">
+            <input type="text"  placeholder="Add a public comment...">
             </div> 
             `;
 
