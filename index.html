@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+
+    <nav>
+        <div class="nav-items">
+            <div class="logo">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+
+              <a href="/index.html">  <img src="images/Group.svg" alt="logo"></a>
+            </div>
+            <div class="search"  action="">
+                <input type="text" placeholder="Search" id="search-input">
+                <button class="magni" id="search-btn"> <i class="fas fa-search "></i></button>
+                <button type="button" class="micro" ><i class="fas fa-microphone "></i></button>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <i class="fas fa-video"></i>
+                    <i class="fas fa-th"></i>
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-user-circle"></i>
+                </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa fa-compass"></i>Explore</li>
+            <li><i class="fas fa-photo-video"></i>Subscriptions</li>
+        </ul>
+        <ul>
+            <li><i class="fas fa-video"></i>Library</li>
+            <li><i class="fas fa-history"></i>History</li>
+            <li><i class="fas fa-clock"></i>Your videos</li>
+            <li><i class="fas fa-clock"></i>Watch later</li>
+            <li><i class="fas fa-clock"></i>Liked videos</li>
+            <li><i class="fas fa-angle-down"></i>Show More</li>
+        </ul>
+
+        <h5>MORE FROM YOUTUBE</h5>
+        <ul>
+            <li><i class="fas fa-music"></i>Music</li>
+            <li><i class="fas fa-gamepad"></i>Gaming</li>
+            <li><i class="fas fa-newspaper"></i>News</li>
+            <li><i class="fas fa-stream"></i>Live</li>
+            <li><i class="fas fa-video"></i>Browse channels</li>
+            <li><i class="fas fa-angle-down"></i>Show 56 more</li> 
+
+        </ul>
+
+
+    </div>
+
+    <!--body-->
+
+    <div class="main-container">
+
+        <div class="tags">
+            gaming
+        </div>
+        <div class="videos-area">
+            <div class="video-card" id="video-card"></div>
+        </div>
+        
+
+    </div>
+    
+
+    
+
+</body>
+<script src="script.js"></script>
+</html>
