@@ -10,7 +10,7 @@ function createVideoCard(video) {
 
     document.getElementById('video-card').innerHTML += `
         <div class="card" id='${videoId}'>
-        <a href="/video.html?id=${videoId}">
+        <a href="video.html?id=${videoId}">
             <img src="${video.snippet.thumbnails.medium.url}" alt="Avatar" style="width:100%">
             <div class="container">
                 <h4><b>${video.snippet.title}</b></h4>
